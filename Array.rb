@@ -26,3 +26,15 @@ end
 
 #
 
+s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
+
+s.each do |t|
+  t.each do |u|
+    puts(u)
+  end
+end
+
+#
+
+
+
